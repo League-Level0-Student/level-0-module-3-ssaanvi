@@ -19,8 +19,17 @@ if (x>=3) {
 	JOptionPane.showMessageDialog(null, "You are a crazy cat lady!! Or man...");
 }
 		// 4. If they have less than 3 cats AND more than 0 cats, call the method below to show them a cat video
-
+if (x<3 &&x>0) {
+	playVideo ("https://www.youtube.com/watch?v=94PLgLKcGW8");
+}
 		// 5. If they have 0 cats, show them a video of A Frog Sitting on a Bench Like a Human
+		if (x==0) {
+			playVideo ("https://www.youtube.com/watch?v=W_juM14WHNQ");
+		}
+	}
+
+	private static void PlayVideo() {
+		// TODO Auto-generated method stub
 		
 	}
 
